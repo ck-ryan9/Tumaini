@@ -8,15 +8,47 @@
                 transition: 3s;
             }
         </style>
+        <script src="dist/dist/js/bootstrap.js"></script>
     </head>
     <body>
 
+        <!-- Section One starts here -->
+        <section class="row">
+            <div class="col-lg-12">
+                <!-- Below tag element will hold all the contents of the navbar -->
+                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a href="index.html" class="navbar-brand bg-primary"  ><b>Tumaini Collection</b></a>
+
+                    <!-- Below is the toggler/hamburg button to either collapse/expand content depending on the different screen sizes -->
+
+                    <button class="navbar-toggler collapsed" data-bs toggle="collapse" data-bs-target="#navbarcontents">
+                        <span class="navbar-toggler-icon"></span>
+                    </button> 
+
+                   <div id="navbarcontents" class="navbar-collapse collapse bg-danger">
+                    <div class="navbar-nav bg-success">
+                        <a href="index.html" class="nav-link active">Home</a>
+                        <a href="#" class="nav-link">Beddings</a>
+                        <a href="#" class="nav-link">Fashion</a>
+
+                    </div>
+
+                   </div class="navbar-nav bg-warning ms-auto">
+                   <a href="#" class="nav-link">Right Hand Side</a>
+
+                 </nav>
+
+            </div>
+        </section>
+
+         <!-- Section One ends here -->
+
         <!-- Section Three starts here -->
          <section class="row">
-            <div class="col-md-3">
+            <div class="col-lg-3">
                 <img src="images/advert1.jpg" alt="Advert Image" width="90%" height="350px">
             </div>
-            <div class="col-md-3 text-center">
+            <div class="col-lg-3 text-center">
                 <img src="images/alionskettle.jpg" alt="Kettle Image" height="200px" width="200px">
 
                 <h5>Alions kettle</h5>
@@ -29,7 +61,7 @@
                  
 
             </div>
-            <div class="col-md-3 text-center">
+            <div class="col-lg-3 text-center">
                 <img src="images/Mika2slicetoaster.png" alt="Mika Toaster" height="200px" width="200px"> 
                 
                 <h5>Mika Slice Toaster</h5>
@@ -42,7 +74,7 @@
 
             </div>
 
-            <div class="col-md-3 text-center">
+            <div class="col-lg-3 text-center">
                 <img src="images/cooker.jpg" alt="Cooker" height="200px" width="200px">
                 <H5>Pro Cooker</H5>
 
@@ -57,10 +89,10 @@
 
         <!-- Section Four starts here -->
          <section class="row">
-            <div class="col-md-6">
+            <div class="col-lg-6">
                <img src="images/advert1.jpg" alt="Advert 1" height="350px" width="98%"> 
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <img src="images/advert2.jpg" alt="Advert 2" height="350px" width="98%">
 
 
@@ -71,7 +103,7 @@
          <!-- Section Five starts here -->
           <h3>Decors</h3>
           <section class="row">
-            <div class="col-md-4 text-center">
+            <div class="col-lg-4 text-center">
                 <img src="images/decor1.jpg" alt="Decor One" height="200px" width="200px">
 
                 <h5>Decor One</h5>
@@ -82,7 +114,7 @@
                 <span class="badge bg-danger">20% Off</span>
 
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-lg-4 text-center">
                 <img src="images/decor2.jpg" alt="Decor 2"  height="200px" width="200px">
 
                 <h5>Decor Two</h5>
@@ -93,7 +125,7 @@
                 <span class="badge bg-danger">20% Off</span>
             </div>
 
-            <div class="col-md-4 text-center">
+            <div class="col-lg-4 text-center">
                 <img src="images/decor3.jpg" alt="Decor 3" height="200px" width="200px">
 
                 <h5>Decor Three</h5>
@@ -107,6 +139,52 @@
           </section>
           <!-- Section Five ends here -->
 
+          <!-- Section Nine starts here -->
+           <section class="row bg-warning">
+            <div class="col-lg-4 p-4 text-white">
+                <h4 class="text-center">About Us</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti odit, aliquam vero tenetur illum tempora?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis culpa quasi harum a blanditiis eaque excepturi necessitatibus quas vitae fugiat, nihil molestias unde eligendi magnam ea nam ratione hic? Sequi.</p>
+
+            </div>
+
+            <div class="col-lg-4 p-4 ">
+                <h4 class="text-center text-white">Contact Us</h4>
+
+                <form>
+                    <input type="text" placeholder="Enter Email Address" class="form-control"><br>
+
+                    <textarea cols="50" rows=""5 class="form-control" placeholder="Leave a comment "></textarea> <br>
+
+                    <input type="Submit" value="Send Message" class="btn btn-outline-danger">
+
+
+                </form>
+            </div>
+
+            <div class="col lg-4 p-4">
+                <h4 class="text-white">Stay Connected</h4>
+                <a href="https://facebook.com">
+                    <img src="images/fb.png" alt="">
+                </a>
+                <a href="https://intagram.com">
+                    <img src="images/in.png" alt="">
+
+                </a>
+                <a href="https://www.twitter.com">
+                    <img src="images/x.png" alt="">
+
+                </a>
+
+                <p class="pt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum aperiam error voluptatem, numquam esse reprehenderit autem cum ut vero architecto mollitia incidunt deserunt eaque debitis, expedita impedit atque fugit sit.</p>
+            
+            </div>
+
+           </section>
+           <footer class="text-center bg-dark text-white p-2">
+              <b>Developed by Ryan. &copy; 2025 All Rights Reserved.</b>
+
+           </footer>
         
     </body>
 </html>
